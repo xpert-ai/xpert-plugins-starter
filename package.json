@@ -5,14 +5,23 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
+    "@nestjs/testing": "^11.1.6",
+    "@nx/jest": "21.6.3",
     "@nx/js": "21.6.3",
     "@nx/node": "^21.6.3",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/jest": "^30.0.0",
     "@types/node": "20.19.9",
+    "jest": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.2",
+    "jest-util": "^30.0.2",
     "nx": "21.6.3",
     "prettier": "^2.6.2",
+    "reflect-metadata": "^0.2.2",
+    "ts-jest": "^29.4.0",
+    "ts-node": "10.9.1",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "verdaccio": "^6.0.5"
@@ -21,14 +30,17 @@
     "packages/*"
   ],
   "dependencies": {
+    "@langchain/core": "0.3.72",
+    "@langchain/langgraph": "0.4.7",
+    "@metad/contracts": "3.6.0-beta.2",
     "@nestjs/common": "^11.1.6",
     "@nestjs/core": "^11.1.6",
     "@nestjs/cqrs": "^11.0.3",
     "@nestjs/event-emitter": "^3.0.1",
-    "@langchain/core": "0.3.72",
-    "@metad/contracts": "3.6.0-beta.2",
     "@xpert-ai/plugin-sdk": "0.0.2",
+    "bull": "^4.12.6",
     "chalk": "4.1.2",
+    "langchain": "0.3.31",
     "zod": "3.25.67"
   },
   "nx": {

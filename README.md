@@ -1,12 +1,8 @@
 # XpertPluginsStarter
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
-
-✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.
-
 [Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/js?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
-## Generate a library
+## Generate a plugin library
 
 ```sh
 npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1
@@ -34,7 +30,7 @@ These targets are either [inferred automatically](https://nx.dev/concepts/inferr
 
 To version and release the library use
 
-```
+```sh
 npx nx release
 ```
 
@@ -44,8 +40,8 @@ Pass `--dry-run` to see what would happen without actually releasing the library
 
 Publish to npm with:
 
-```
-nx run @xpert-ai/my-plugin:nx-release-publish --access public --otp=852128
+```sh
+npx nx run @xpert-ai/my-plugin:nx-release-publish --access public --otp=<one-time-password-if-needed>
 ```
 
 ## Useful links
