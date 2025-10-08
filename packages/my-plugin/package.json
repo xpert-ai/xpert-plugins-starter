@@ -18,6 +18,12 @@
     "!**/*.tsbuildinfo"
   ],
   "dependencies": {
+    "expr-eval": "^2.0.2",
     "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@metad/contracts": "*",
+    "@xpert-ai/plugin-sdk": "*",
+    "zod": "*"
   }
 }
