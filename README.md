@@ -5,7 +5,7 @@
 ## Generate a plugin library
 
 ```sh
-npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1
+npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1 --bundler=tsc --unitTestRunner=jest --linter=eslint
 ```
 
 ## Run tasks
